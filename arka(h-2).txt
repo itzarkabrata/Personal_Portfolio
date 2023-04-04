@@ -1,0 +1,287 @@
+a=5
+print("Type of a: ", type(a))
+b=3.5
+print("\nType of b: ", type(b))
+c=2+5j
+print("\nType of c: ", type(c))
+Type of a:  <class 'int'>
+
+Type of b:  <class 'float'>
+
+Type of c:  <class 'complex'>
+a=19
+b=12
+add=a+b
+sub=a-b
+mul=a*b
+div1=a/b
+div2=a//b
+mod=a%b
+p=a**b
+print(add)
+print(sub)
+print(mul)
+print(div1)
+print(div2)
+print(mod)
+print(p)
+31
+7
+228
+1.5833333333333333
+1
+7
+2213314919066161
+a=13
+b=35
+print(a<b)
+print(a==b)
+print(a!=b)
+print(a>=b)
+print(a<=b)
+True
+False
+True
+False
+True
+a=True
+b=False
+print(a and b)
+print(a or b)
+print(not a)
+False
+True
+False
+a=10
+b=15
+b=a
+print(b)
+b+=a
+print(b)
+b-=a
+print(b)
+b*=a
+print(b)
+10
+20
+10
+100
+a=5
+b=5.5
+c=2+5j
+print("type of a: ",type(a))
+print("type of b: ",type(b))
+print("type of c: ",type(c))
+type of a:  <class 'int'>
+type of b:  <class 'float'>
+type of c:  <class 'complex'>
+string1='Welcome world'
+string2="Welcome world"
+string3='''Welcome
+world'''
+print(string1)
+print(string2)
+print(string3)
+Welcome world
+Welcome world
+Welcome
+world
+string1='Welcome world'
+print("type of the string:",type(string1))
+type of the string: <class 'str'>
+string4="Welcome"
+print("The first element of the string:")
+print(string4[0])
+The first element of the string:
+W
+string4="Welcome"
+print("The first element of the string:")
+print(string4[0])
+print("The last element of the string:")
+print(string4[-1])
+The first element of the string:
+W
+The last element of the string:
+e
+List=[]
+print(List)
+List1=['ABC']
+print(List1)
+List3=["A","B","C"]
+print(List3)
+[]
+['ABC']
+['A', 'B', 'C']
+string4="Welcome"
+print("2nd last element of string: ")
+print(string4[-2])
+2nd last element of string: 
+m
+List=[]
+print(List)
+List1=['ABC']
+print(List1)
+List3=["A","B","C"]
+print(List3)
+List4=[['A','B'],['C']]
+print(List4)
+[]
+['ABC']
+['A', 'B', 'C']
+[['A', 'B'], ['C']]
+List3=["A","B","C"]
+print(List3[-1])
+print(List3[-3])
+C
+A
+Tuple1=('A','B','C')
+print(Tuple1)
+Tuple2=(1,2,3,4)
+print(Tuple2)
+Tuple3=tuple('ABCDEF')
+print(Tuple3)
+List6=[1,2,3,4,5,6]
+print(tuple(List6))
+('A', 'B', 'C')
+(1, 2, 3, 4)
+('A', 'B', 'C', 'D', 'E', 'F')
+(1, 2, 3, 4, 5, 6)
+Tuple1=('A','B','C')
+print(Tuple1)
+Tuple2=(1,2,3,4)
+print(Tuple2)
+Tuple3=tuple('ABCDEF')
+print(Tuple3)
+print("3rd last element of Touple:")
+print(Tuple3[-3])
+List6=[1,2,3,4,5,6]
+print(tuple(List6))
+('A', 'B', 'C')
+(1, 2, 3, 4)
+('A', 'B', 'C', 'D', 'E', 'F')
+3rd last element of Touple:
+D
+(1, 2, 3, 4, 5, 6)
+a=6
+b=4
+print(a+b)
+print(a-b)
+print(a/b)
+print(a//b)
+print(a*b)
+print(a**b)
+10
+2
+1.5
+1
+24
+1296
+a=6
+b=4
+print(a>b)
+print(a>=b)
+print(a<b)
+print(a<=b)
+print(a!=b)
+print(a==b)
+True
+True
+False
+False
+True
+False
+a=False
+b=True
+print(a and b)
+print(a or b)
+print(not a)
+False
+True
+True
+a=6
+b=4
+a+=b
+print(a)
+a-=b
+print(a)
+a/=b
+print(a)
+a*=b
+print(a)
+a**=b
+print(a)
+10
+6
+1.5
+6.0
+1296.0
+a=10
+b=5
+c=7
+d=5
+e=6
+f=5
+g=9
+h=5
+i=15
+j=5
+a&=b
+print(a)
+c|=d
+print(c)
+e^=f
+print(e)
+g<<=h
+print(g)
+i>>=j
+print(i)
+0
+7
+3
+288
+0
+a=5
+b=10
+c=a
+print(a is not b)
+print(a is c)
+True
+True
+a=4
+b=9
+List=[1,2,3,4,5]
+if(a not in List):
+    print(a,"is not present in List")
+else:
+    print(a,"is present in List")
+if(b in List):
+    print(b,"is present in List")
+else:
+    print(b,"is not present in List")
+4 is present in List
+9 is not present in List
+x=10
+y=20
+z=30
+a=x+y*z
+print(a)
+610
+name="Hello"
+age=10
+if name=="Hello" or Name=="World" and age>=5:
+    print("Hello welcome")
+Hello welcome
+print(100/10*10)
+100.0
+print(5-3+2)
+4
+print(5**2**3)
+390625
+x=10.5
+y=6
+x=x+y
+print("Type of x",type(x))
+print("Type of y",type(y))
+Type of x <class 'float'>
+Type of y <class 'int'>
+ 
