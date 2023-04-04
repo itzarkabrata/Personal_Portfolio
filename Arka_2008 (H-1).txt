@@ -150,3 +150,10 @@ add=num+5
 print("The sum is %d"%num)
 Enter the num:56
 The sum is 56
+
+
+
+
+I have changed this file so what now do
+
+
